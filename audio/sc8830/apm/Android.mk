@@ -18,9 +18,6 @@ LOCAL_SRC_FILES := \
 LOCAL_MODULE := \
 	libmedia_helper
 
-LOCAL_WHOLE_STATIC_LIBRARIES += \
-	libaudiopolicy_legacy
-
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	libutils \
@@ -47,9 +44,6 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_STATIC_LIBRARIES := \
 	libmedia_helper
-
-LOCAL_WHOLE_STATIC_LIBRARIES := \
-	libaudiopolicy_legacy
 
 LOCAL_SHARED_LIBRARIES += \
 	libaudiopolicy
